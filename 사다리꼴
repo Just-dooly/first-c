@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(void)
+{
+	int a, b, c;
+	printf("가로 세로 밑변\n");
+	scanf_s("%d %d %d", &a, &b, &c);
+	printf("사각형의 면적은 : %d\n", (a+c)*b/2);
+
+	return 0;
+}
