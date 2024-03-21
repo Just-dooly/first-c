@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(void)
+{
+	int a, b;
+	printf("삼각형의 면적 구하기\n");
+	printf("밑변? 높이?");
+	scanf_s("%d %d", &a,&b);
+	printf("삼각형의 면적은 : %d\n", a * b / 2);
+
+	return 0;
+}
