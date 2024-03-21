@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main(void)
+{
+    //3개의 정수를 입력해서 최댓값,최소값 출력2
+
+    int a, b, c, x, y;
+    printf("3개의 정수를 입력\n");
+    scanf_s("%d %d %d", &a, &b, &c);
+    if (a > b) {
+        if (a > c) { x = a; }
+        else { x = b; }
+    }
+    else {
+        if (b > c) { x = b; }
+        else { x = c; }
+    }
+    if (a > b) {
+        if (b > c) { y = c; }
+        else { y = b; }
+    }
+    else {
+        if (a > c) { y = c; }
+        else { y = a; }
+    }
+
+    printf("최댓값=%d , 최소값=%d\n", x, y);
+
+    return 0;
+}
