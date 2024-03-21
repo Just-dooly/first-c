@@ -14,6 +14,7 @@ int main(void)
         if(b>c) {x=b;}
         else {x=c;}
     }
-
+    printf("가장 큰수는=%d", x);
+    
     return 0;
 }
