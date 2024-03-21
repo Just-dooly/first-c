@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(void)
+{
+	//3개의 정수를 입력해서 최댓값 출력2
+	int a, b, c, x, y, z;
+	printf("3개의 정수 입력\n");
+	scanf_s("%d %d %d", &a, &b, &c);
+	if (a > b) { x = a; }
+  else       { x = b; }
+	if (b > c) { y = b; }
+  else       { y = c; }
+	if (x > y) { z = x; }
+  else       { z = y; }
+	printf("가장 큰수는=%d\n", z);
+
+	return 0;
+}
